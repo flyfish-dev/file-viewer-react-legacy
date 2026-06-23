@@ -1,6 +1,6 @@
 {
   "name": "@file-viewer/react-legacy",
-  "version": "2.0.11",
+  "version": "2.1.1",
   "private": false,
   "type": "module",
   "description": "Standard React 16/17 legacy component package for Flyfish File Viewer",
@@ -10,7 +10,10 @@
     "react",
     "react-legacy",
     "native-viewer",
-    "office-preview"
+    "office-preview",
+    "document-viewer",
+    "file-preview",
+    "self-hosted"
   ],
   "publishConfig": {
     "access": "public",
@@ -27,6 +30,10 @@
   "homepage": "https://github.com/flyfish-dev/file-viewer-react-legacy",
   "bugs": {
     "url": "https://github.com/flyfish-dev/file-viewer-react-legacy/issues"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://dev.flyfish.group/shop"
   },
   "main": "./dist/index.js",
   "module": "./dist/index.js",
@@ -52,7 +59,7 @@
     "react": ">=16.8 <18"
   },
   "dependencies": {
-    "@file-viewer/core": "^2.0.11"
+    "@file-viewer/core": "^2.1.1"
   },
   "devDependencies": {
     "@types/react": "^17.0.0",
