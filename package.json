@@ -1,0 +1,72 @@
+{
+  "name": "@file-viewer/react-legacy",
+  "version": "3.3.1",
+  "private": false,
+  "type": "module",
+  "description": "Lightweight React 16.8/17 file viewer. Add PDF, Office and other browser-side previews with renderer presets.",
+  "keywords": [
+    "file-viewer",
+    "document-preview",
+    "react",
+    "react-legacy",
+    "native-viewer",
+    "office-preview",
+    "document-viewer",
+    "file-preview",
+    "self-hosted"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "author": {
+    "name": "Yu Wang",
+    "email": "admin@flyfish.dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flyfish-dev/file-viewer-react-legacy.git"
+  },
+  "homepage": "https://github.com/flyfish-dev/file-viewer-react-legacy",
+  "bugs": {
+    "url": "https://github.com/flyfish-dev/file-viewer-react-legacy/issues"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://dev.flyfish.group/donate?source=npm"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "README.en.md",
+    "README.zh-CN.md"
+  ],
+  "scripts": {
+    "build": "tsc -b tsconfig.json",
+    "type-check": "tsc -b tsconfig.json"
+  },
+  "peerDependencies": {
+    "react": ">=16.8 <18"
+  },
+  "dependencies": {
+    "@file-viewer/core": "3.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.0",
+    "react": "^17.0.2",
+    "typescript": "^6.0.3"
+  },
+  "license": "Apache-2.0",
+  "packageManager": "pnpm@11.0.9"
+}

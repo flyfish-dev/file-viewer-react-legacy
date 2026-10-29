@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-29T15:05:46.783Z",
+  "sourceBranch": "main",
+  "sourceCommit": "7f77f14ea",
+  "organization": "flyfish-dev",
+  "framework": "React 16.8/17",
+  "packageName": "@file-viewer/react-legacy",
+  "packageVersion": "3.3.1",
+  "repository": "file-viewer-react-legacy",
+  "github": "https://github.com/flyfish-dev/file-viewer-react-legacy",
+  "gitee": "https://gitee.com/flyfish-dev/file-viewer-react-legacy",
+  "entryFormats": [
+    "esm",
+    "types"
+  ],
+  "historicalPackages": [],
+  "sourcePackageDir": "packages/components/react-legacy",
+  "corePackage": "@file-viewer/core",
+  "coreSourceVisibility": "public-source"
+}
